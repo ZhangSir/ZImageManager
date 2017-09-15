@@ -1,0 +1,2 @@
+# ZImageManager
+这是一个简单的图片加载器，精简修改自UniversalImageLoader开源库；
