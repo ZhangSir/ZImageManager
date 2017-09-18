@@ -18,8 +18,6 @@ allprojects {
     }
 }
 
+//上传到jcenter是放弃生成javaDoc，避免“编码GBK的不可映射字符”的错误
 tasks.getByPath(":zimageloader:mavenAndroidJavadocs").enabled = false
 
-//task javadoc(type: Javadoc) {
-//    options.encoding = "utf-8"
-//}

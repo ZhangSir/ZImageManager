@@ -31,7 +31,7 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 
-//添加
+//添加发布到jcenter的配置信息
 publish {
     userOrg = 'superz'//bintray.com用户名
     repoName= 'android-network'//仓库名称
