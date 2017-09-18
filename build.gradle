@@ -18,12 +18,8 @@ allprojects {
     }
 }
 
-task clean(type: Delete) {
-    delete rootProject.buildDir
-}
+tasks.getByPath(":zimageloader:mavenAndroidJavadocs").enabled = false
 
-//上传到jcenter时避免javadoc的检查，已解决报错无法上传的问题
-tasks.withType(Javadoc) {
-    options.addStringOption('Xdoclint:none', '-quiet')
-    options.addStringOption('encoding', 'UTF-8')
-}
+//task javadoc(type: Javadoc) {
+//    options.encoding = "utf-8"
+//}
