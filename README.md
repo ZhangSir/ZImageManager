@@ -3,7 +3,9 @@
 
 ## 引用方式    
 在Gradle文件的Dependencies下增加：  
+	
 	compile 'com.itz:ZImageLoader:1.0.5'   
+	
 
 ## 使用示例    
 
