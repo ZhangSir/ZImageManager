@@ -7,7 +7,8 @@ compile 'com.itz:ZImageLoader:1.0.5'
 
 ## 使用示例    
 
-imageLoader.displayImage(new ImageViewAware(holder.image, imageUrls[position]), new ImageLoadingListener() {
+	imageLoader.displayImage(new ImageViewAware(holder.image, imageUrls[position]), new ImageLoadingListener() {
+		
                 @Override
                 public void onLoadingStarted(String imageUri, View view) {
                     // TODO Auto-generated method stub
